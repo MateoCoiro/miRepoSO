@@ -25,7 +25,7 @@ char parsear(FILE* archivo,char* buffer,int largoMaximoDeLinea){
 				buffer = realloc(buffer,largoMaximoDeLinea); //aloco memoria nueva a buffer
 			}
 			caracter = getc(archivo);
-			memcpy(buffer+largo,caracter,sizeof(char));
+			buffer[largo] = caracter;
 			largo++;
 	}
 

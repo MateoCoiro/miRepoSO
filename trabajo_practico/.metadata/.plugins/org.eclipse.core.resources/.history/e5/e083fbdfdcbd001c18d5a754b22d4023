@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+ Name        : Modulo.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <commons/config.h>
+#include <commons/log.h>
+#include <commons/temporal.h>
+
+FILE* enlistarArchivo(rutaDeArchivo){
+	FILE* archivo = fopen(rutaDeArchivo,"w+b");
+		
+	t_list
+	while(!feof(archivo)){
+		
+	}
+}
+
+int Modulo(int argc, char**argv) {
+
+	FILE* archivoParseado;
+	
+	archivoParseado = enlistarArchivo(**argv);
+	
+
+
+}
